@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    height: 50px;
+    &__logo {
+        height: 50px;
+        width: 172.39px;
+    }
+    &__menu {
+        width: 602px;
+        height: 23px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0;
+        &-item {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 146%;
+            color: #FFFFFF;
+            &:hover {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
