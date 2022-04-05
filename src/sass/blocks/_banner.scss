@@ -1,0 +1,132 @@
+.ban__carousel {
+    &-inner {
+        &-item {
+            height: 700px;
+            width: 100%;
+            margin-top: 25px;
+            filter: drop-shadow(5px 15px 40px rgba(11, 24, 97, 0.32));
+            border-radius: 20px;
+            background-image: url("../../img/banner/bg4.jpg");
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center;
+            &:nth-child(2){
+            background-image: url("../../img/banner/bg1.jpg");
+            }
+            &:nth-child(3){
+                background-image: url("../../img/banner/bg3.jpg");
+            }
+            &:nth-child(4){
+                background-image: url("../../img/banner/bg2.jpg");
+            }
+        } 
+    }
+    &-title {
+        width: 463px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 126%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0;
+        margin-top: 163px;
+
+    }
+    &-descr {
+        width: 345px;
+        font-size: 20px;
+        line-height: 135.5%;
+        color: #FFFFFF;
+        margin-top: 12px;
+    }
+    &-btn {
+        margin-top: 33px;
+        position: relative;
+        height: 68px;
+        line-height: 68px;
+        width: 293px;
+        padding: 0 25px;
+        text-align: left;
+        &::after{
+            content: "";
+            width: 27px;
+            height: 27px;
+            background:url("../../icons/banner/arrow-circle-left\ 1.svg") ;
+            top: 21px;
+            right: 21px;
+            position: absolute;
+        }
+    }
+}
+
+.ban__carousel-inner .slick-arrow.slick-prev {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 0;
+    width: 46px;
+    height: 46px;
+    border: none;
+    left: 148px;
+    background: url('../../icons/banner/arrow_l.svg') 0 0 no-repeat;
+    outline: none;
+}
+
+.ban__carousel-inner .slick-arrow.slick-next {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 0;
+    width: 46px;
+    height: 46px;
+    border: none;
+    right: 148px;
+    background: url('../../icons/banner/arrow_r.svg') 0 0 no-repeat;
+    outline: none;
+}
+
+.ban__carousel-inner .slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Точки (булиты) */
+
+.ban__carousel-inner .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    margin: 0;
+    margin-top: -43px;
+}
+
+.ban__carousel-inner .slick-dots li button {
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    background: none;
+    border-radius: 50%;
+    border-color: #FFFFFF;
+    // border: none;
+    margin: 0 8px;
+    z-index: 9999;
+
+}
+
+.ban__carousel-inner .slick-dots li {
+    list-style-type: none;
+    display: flex;
+}
+
+
+/* Активная точка */
+
+.ban__carousel-inner .slick-dots li.slick-active button {
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+}

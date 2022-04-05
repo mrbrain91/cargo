@@ -12,6 +12,7 @@
 
 body {
     background-color: #282B38;
+    padding: 0 50px;
 }
 
 @font-face {
@@ -54,3 +55,4 @@ body {
 @import 'blocks/button';
 // @import 'blocks/menu';
 @import 'blocks/header';
+@import 'blocks/banner';
