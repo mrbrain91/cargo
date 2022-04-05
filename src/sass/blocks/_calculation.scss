@@ -27,6 +27,50 @@
         background: #363A4D;
         border-radius: 20px;
         padding: 50px 50px 41px 50px;
+        &-checkbox {
+            height: 62px;
+            width: 100%;
+            margin-top: 39px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &-1 {
+                height: 24px;
+                display: flex;
+                align-items: center;
+            }
+            &-check {
+                appearance: none;
+                -webkit-appearance: none;
+                width: 24px;
+                height: 24px;
+                background: #FFFFFF;
+                border: 1px solid #282B38;
+                border-radius: 4px;
+                cursor: pointer;
+                &::after {
+                    content: "";
+                    background: url("../../icons/calculate/checked.svg") no-repeat;
+                    height: 12px;
+                    width: 12px;
+                    margin: 0 auto;
+                    margin-top: 6px;
+                    display: none;
+                }
+                &:checked:after {
+                    display: block;
+                }
+                &-label {
+                    display: inline-block;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    margin: 0;
+                    margin-left: 9px;
+                }
+            }
+        }
         &-steps {
             position: absolute;
             top: -30px;
@@ -66,7 +110,6 @@
             &-item {
                 width: 248px;
                 height: 100%;
-                border: 1px solid green;
             }
         }
         &-input {
@@ -87,15 +130,15 @@
                 color: #FFFFFF;
                 margin-bottom: 6px;
                 margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-decoration-line: underline;
+                    color: #E58D35;
+                }
             }
         }
-        // &-check {
-        //     width: 24px;
-        //     height: 24px;
-        //     background: #FFFFFF;
-        //     border: 1px solid #282B38;
-        //     border-radius: 4px;
-        //     margin-top: 39px;
-        // }
     }
 }
