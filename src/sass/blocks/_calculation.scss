@@ -1,0 +1,111 @@
+.calculation {
+    min-height: 956px;
+    margin-top: 24px;
+    padding: 97px 0 110px 0;
+    &__title {
+        width: 626px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 124.5%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &::after {
+            content: " ";
+            width: 85px;
+            height: 2px;
+            background: #89C249;
+            display: inline-block;
+            margin-left: 36px;
+            margin-bottom: 11px;
+        }
+    }
+    &__form {
+        position: relative;
+        margin-top: 62px;
+        width: 626px;
+        height: 597px;
+        background: #363A4D;
+        border-radius: 20px;
+        padding: 50px 50px 41px 50px;
+        &-steps {
+            position: absolute;
+            top: -30px;
+            left: 50px;
+            list-style-type: none;
+            display: flex;
+            margin-bottom: 0;
+            &-item {
+                width: 60px;
+                height: 60px;
+                background: #282B38;
+                border: 2px solid #363A4D;
+                border-radius: 90px;
+                text-align: center;
+                line-height: 60px;
+                margin-right: 41px;
+                font-weight: 700;
+                font-size: 24px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #BFBFBF;
+                &-active {
+                    background: #89C249;
+                    border: none;
+                    color: #FFFFFF; 
+                }
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+        &-wrapper {
+            display: flex;
+            justify-content: space-between; 
+            width: 100%;
+            height: 303px;
+            &-item {
+                width: 248px;
+                height: 100%;
+                border: 1px solid green;
+            }
+        }
+        &-input {
+            width: 100%;
+            height: 56px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            padding: 0px 20px;
+            line-height: 56px;
+            font-weight: 400;
+            font-size: 15px;
+            color: #CBCBCB;
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 440px;
+            top: 1340px;
+            
+            background: #FFFFFF;
+            border: 1px solid #282B38;
+            box-sizing: border-box;
+            border-radius: 4px;
+            &-label {
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 126%;
+                color: #FFFFFF;
+                margin-bottom: 6px;
+                margin-top: 20px;
+            }
+        }
+        &-check {
+            width: 24px;
+            height: 24px;
+            background: #FFFFFF;
+            border: 1px solid #282B38;
+            border-radius: 4px;
+            margin-top: 39px;
+        }
+    }
+}
