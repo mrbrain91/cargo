@@ -8,12 +8,20 @@
     padding: 0;
     // transition: all 0.1s;
     // background-color: #282B38;
-    outline: dotted red;
+    // outline: dotted red;
 }
 
 body {
     background-color: #282B38;
     padding: 0 50px;
+}
+
+.divider {
+    width: 85px;
+    height: 2px;
+    background: #E58D35;
+    margin: 0 auto;
+    margin-top: 19px;
 }
 
 @font-face {
@@ -55,7 +63,9 @@ body {
 }
 
 @import 'blocks/button';
+@import 'blocks/title';
 // @import 'blocks/menu';
 @import 'blocks/header';
 @import 'blocks/banner';
 @import 'blocks/calculation';
+@import 'blocks/feature';

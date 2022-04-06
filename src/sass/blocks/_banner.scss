@@ -7,19 +7,19 @@
             filter: drop-shadow(5px 15px 40px rgba(11, 24, 97, 0.32));
             border-radius: 20px;
             background-image: url("../../img/banner/bg4.jpg");
-            background-size: cover; 
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            &:nth-child(2){
-            background-image: url("../../img/banner/bg1.jpg");
+            &:nth-child(2) {
+                background-image: url("../../img/banner/bg1.jpg");
             }
-            &:nth-child(3){
+            &:nth-child(3) {
                 background-image: url("../../img/banner/bg3.jpg");
             }
-            &:nth-child(4){
+            &:nth-child(4) {
                 background-image: url("../../img/banner/bg2.jpg");
             }
-        } 
+        }
     }
     &-title {
         width: 463px;
@@ -30,7 +30,6 @@
         color: #FFFFFF;
         margin: 0;
         margin-top: 163px;
-
     }
     &-descr {
         width: 345px;
@@ -47,11 +46,11 @@
         width: 293px;
         padding: 0 25px;
         text-align: left;
-        &::after{
+        &::after {
             content: "";
             width: 27px;
             height: 27px;
-            background:url("../../icons/banner/arrow-circle-left\ 1.svg") ;
+            background: url("../../icons/banner/arrow-circle-left\ 1.svg");
             top: 21px;
             right: 21px;
             position: absolute;
@@ -114,7 +113,6 @@
     // border: none;
     margin: 0 8px;
     z-index: 9999;
-
 }
 
 .ban__carousel-inner .slick-dots li {
