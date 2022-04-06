@@ -1,0 +1,84 @@
+.variant {
+    min-height: 794px;
+    padding: 97px 0px 100px 0px;
+    &__divider {
+        background: #89C249;
+    }
+    &__slider {
+        height: 482px;
+        margin-top: 49px;
+        &-item {
+            max-width: 360px;
+            height: 482px;
+            background: #363A4D;
+            box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-img {
+                width: 360px;
+                height: 229px;
+            }
+            &-title {
+                margin-top: 27px;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 124.5%;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &-wrapper {
+                margin-top: 12px;
+                display: flex;
+                gap: 31px;
+                div {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            &-icon {
+                width: 22px;
+                height: 22px;
+                margin-right: 10px;
+            }
+            &-text {
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            &-cost {
+                margin-top: 13px;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 124.5%;
+                color: #FFFFFF;
+                span {
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 124.5%;
+                    color: #FFFFFF;
+                }
+                .ot {
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 124.5%;
+                    color: #A3A3A3;
+                }
+            }
+            &-btns {
+                margin-top: 18px;
+                display: flex;
+                gap: 14px;
+            }
+            &-btn {
+                padding: 0px 18px;
+                width: 153px;
+                &:last-child {
+                    border: 1px solid #E58D35;
+                    background: none;
+                }
+            }
+        }
+    }
+}

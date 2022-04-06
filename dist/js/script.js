@@ -7,4 +7,10 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 2000
     });
+
+    $('.variant__slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
 });
