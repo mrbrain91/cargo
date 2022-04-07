@@ -1,0 +1,45 @@
+.about {
+    position: relative;
+    min-height: 722px;
+    padding: 145px 0 136px 0;
+    &__title {
+        text-align: left;
+
+    }
+    &__divider {
+        background: #89C249;
+        margin: 0;
+        margin-top: 19px;
+    }
+    &__text {
+        width: 555px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFFFFF;
+        margin-top: 44px;
+        margin-bottom: 0;
+    }
+    &__circle {
+        z-index: -2;
+        position: absolute;
+        width: 550px;
+        height: 550px;
+        right: 0;
+        top: -54px;
+        background: #363A4D;
+        border-radius: 100%;
+        &-clipboard {
+            position: absolute;
+            z-index: -1;
+            left: 22px;
+
+        }
+        &-pen {
+            position: absolute;
+            z-index: 1;
+            left: -86px;
+            top: 134px;
+        }
+    }
+}
