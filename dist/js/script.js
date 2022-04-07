@@ -13,4 +13,9 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1
     });
+    $('.service__slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
 });

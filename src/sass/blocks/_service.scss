@@ -1,0 +1,60 @@
+.service {
+    min-height: 794px;
+    padding: 97px 0px 100px 0px;
+    // &__divider {
+    //     background: #89C249;
+    // }
+    &__slider {
+        height: 482px;
+        margin-top: 49px;
+        &-item {
+            max-width: 360px;
+            height: 482px;
+            background-image: url("../../img/service/1.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 250px 23px 33px 30px;
+            &-2 {
+                background-image: url("../../img/service/2.png");
+            }
+            &-3 {
+                background-image: url("../../img/service/3.png");
+            }
+            &-4 {
+                background-image: url("../../img/service/4.png");
+            }
+            &-img {
+                width: 360px;
+                height: 229px;
+            }
+
+            &-title {
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 124.5%;
+                color: #FFFFFF;
+            }
+            &-descr {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 124.5%;
+                color: #FFFFFF;
+            }
+           
+            &-btn {
+                padding: 0px 18px;
+                width: 153px;
+                &:last-child {
+                    border: 1px solid #E58D35;
+                    background: none;
+                }
+            }
+        }
+    }
+}
