@@ -1,6 +1,9 @@
 .service {
     min-height: 794px;
-    padding: 97px 0px 100px 0px;
+    width: 100%;
+    padding: 97px 0px 100px 0px;    
+    background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
+    border-radius: 20px;
     // &__divider {
     //     background: #89C249;
     // }
@@ -8,9 +11,13 @@
         height: 482px;
         margin-top: 49px;
         &-item {
+
             max-width: 360px;
             height: 482px;
-            background-image: url("../../img/service/1.png");
+            background-image:
+            linear-gradient(0deg, rgba(4, 5, 17, 0.91) 0%, rgba(88, 88, 88, 0) 100%),
+            url("../../img/service/1.png");
+
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -21,13 +28,20 @@
             justify-content: space-between;
             padding: 250px 23px 33px 30px;
             &-2 {
-                background-image: url("../../img/service/2.png");
+                background-image: 
+                linear-gradient(0deg, rgba(4, 5, 17, 0.91) 0%, rgba(88, 88, 88, 0) 100%),
+                url("../../img/service/2.png");
             }
             &-3 {
-                background-image: url("../../img/service/3.png");
+                
+                background-image: 
+                linear-gradient(0deg, rgba(4, 5, 17, 0.91) 0%, rgba(88, 88, 88, 0) 100%),
+                url("../../img/service/3.png");
             }
             &-4 {
-                background-image: url("../../img/service/4.png");
+                background-image: 
+                linear-gradient(0deg, rgba(4, 5, 17, 0.91) 0%, rgba(88, 88, 88, 0) 100%),
+                url("../../img/service/4.png");
             }
             &-img {
                 width: 360px;
