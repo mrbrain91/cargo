@@ -58,7 +58,7 @@ body {
 
 .container {
     position: relative;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -76,3 +76,4 @@ body {
 @import 'blocks/faq';
 @import 'blocks/partnership';
 @import 'blocks/footer';
+@import 'blocks/media';

@@ -4,13 +4,14 @@
     align-items: center;
     margin-top: 25px;
     height: 50px;
+    border: 1px solid green;
     &__logo {
         height: 50px;
         width: 172.39px;
     }
     &__menu {
-        width: 602px;
-        height: 23px;
+        min-width: 602px;
+        min-height: 23px;
         list-style-type: none;
         display: flex;
         justify-content: space-between;
